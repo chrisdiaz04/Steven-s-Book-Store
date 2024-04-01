@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #c5bfdf;
+}
+
+header {
+  background-color: #7d7697;
+  padding: 2em 2em;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+.header-h1 {
+  color: #97b4df;
+  text-align: center;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #790808;
+}
+
+.main-content {
+  margin: 0 5em;
+}
+
+.books-content {
+  display: flex;
+  width: 100%;
+  margin: 3em 0 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.book-container {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: solid #59546c;
+  box-shadow: 1px 10px 30px 2px #59546c;
+  margin: 1em 0 1em;
+  padding: 1em 1em;
+}
+
+img {
+  width: 30%;
+  align-items: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7em;
+  margin: 1.5em 0 0;
+}
+
+.footer {
+  padding: 2em;
+  background-color: #7d7697;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.feedback-form {
+  background-color: #c5bfdf;
+  padding: 2em;
+  margin: 2em 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+.feedback-form h2 {
+  color: #790808;
+  text-align: center;
+  margin: 0 0 1.5em;
+}
+.feedback-form .form-group {
+  margin: 0 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.feedback-form .form-group label {
+  margin: 0 0 0.5em;
+  color: #790808;
+}
+.feedback-form .form-group input[type=text],
+.feedback-form .form-group input[type=email],
+.feedback-form .form-group textarea {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 1px solid #59546c;
+}
+.feedback-form .form-group input[type=text]:focus,
+.feedback-form .form-group input[type=email]:focus,
+.feedback-form .form-group textarea:focus {
+  outline: none;
+  border-color: #59546c;
+}
+.feedback-form .submit-button {
+  background-color: #790808;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.feedback-form .submit-button:hover {
+  background-color: #790808;
+}/*# sourceMappingURL=book.css.map */

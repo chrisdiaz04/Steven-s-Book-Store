@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-h1">Steven's Book Store</h1>
+    </header>
+
+    <main class="main-content">
+        <h2>Welcome! These are the books available at the moment.</h2>
+        <section class="books-content">
+            
+            <div class="book-container">
+                <img src="./images/Great Gatsby.jpg" alt="Great Gatsby Cover">
+                <a href="https://en.wikipedia.org/wiki/The_Great_Gatsby" target="_blank"> <h3>The Great Gatsby</h3> </a>
+            </div>
+            
+            <div class="book-container">
+                <img src="./images/Twilight.jpg" alt="Twilight Book Cover">
+                <a href="https://en.wikipedia.org/wiki/Twilight_(Meyer_novel)#:~:text=It%20is%20the%20first%20book,17%2Dyear%2Dold%20body." target="_blank"> <h3>Twilight</h3> </a>
+            </div>
+
+            <div class="book-container">
+                <img src="./images/Farenheit.jpg" alt="Fahrenheit_451 Cover">
+                <a href="https://en.wikipedia.org/wiki/Fahrenheit_451" target="_blank"><h3>Farenheit</h3></a>
+            </div>
+
+            <div class="book-container">
+                <img src="./images/Dune.jpg" alt="Dune Cover">
+                <a href="https://en.wikipedia.org/wiki/Dune_(novel)" target="_blank"><h3>Dune</h3> </a>
+            </div>
+           
+            <div class="book-container">
+                <img src="./images/Hunger Games.jpg" alt="Dune Cover">
+                <a href="https://www.sparknotes.com/lit/catching-fire/summary/" target="_blank"><h3>Catching Fire</h3> </a>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer class="footer" >
+        <a href="javascript:void(0);" onclick="scrollToTop()" class="scrollToTop">scroll to top</a>
+        <a href="./feedback.html" class="giveFeedback">Give Feedback</a>
+
+    </footer>
+
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior:"smooth"
+            });
+        }
+    </script>
+</body>
+</html>
